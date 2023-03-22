@@ -1,0 +1,10 @@
+.rrss {
+    display: flex;
+
+    &__svg {
+        width: 1.5em;
+        max-width: 1.5em;
+        height: auto;
+        margin: 0 0 0 1em;
+    }
+}

@@ -1,0 +1,43 @@
+@import '../abstracts/variables';
+
+.navbar {
+    background-color: map-get($map: $colores, $key: c-black);
+    width: 100%;
+    max-width: 75em;
+    margin: auto;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1.875em;
+    margin: 1em auto;
+
+    &__img {
+        width: 12em;
+        height: auto;
+    }
+
+    &__div {
+        display: flex;
+    }
+
+    &__ul {
+        margin: 0 2em 0 0;
+        display: flex;
+    }
+
+    &__li {
+        color: map-get($map: $colores, $key: c-white);
+        margin: 0 0 0 1em;
+        
+        
+    }
+
+    &__a {
+        cursor: pointer;
+        font-weight: map-get($map: $fuentes, $key: f-bold);
+        &:hover {
+            color: map-get($map: $colores, $key: c-blue);
+        }
+    }
+}
