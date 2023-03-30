@@ -1,0 +1,46 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+.about {
+    background-image: url("../../assets/about_black.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: map-get($map: $estructura-pc, $key: max-width);
+    border-radius: 1.3125em;
+    padding: map-get($map: $estructura-pc, $key: padding);
+    margin: 1em auto;
+   
+    &__h2 {
+        color: map-get($map: $colores, $key: c-blue);
+        font-weight: map-get($map: $fuentes, $key: f-bold);
+        font-size: 3em; 
+        padding: 1em
+    }
+    
+    &__article{
+
+        @include flex(flex, row, center, center);
+
+        &__div {
+            padding: 1em 4em;
+        }
+
+        &__img {
+            width: 100%;
+            max-width: 18em;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        &__h3 {
+            color: map-get($map: $colores, $key: c-white);
+            font-weight: map-get($map: $fuentes, $key: f-bold);
+            padding: 0 0 1em 0;
+        }
+
+        &__li {
+            color: map-get($map: $colores, $key: c-white);
+            padding: 0 0 1em 0;
+        }
+    }
+}

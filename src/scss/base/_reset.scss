@@ -94,7 +94,6 @@
   label {
     font-family: inherit;
     font-size: inherit;
-    hyphens: auto;
     background-color: transparent;
     color: inherit;
     display: block;
@@ -124,10 +123,6 @@
     background-color: map-get($map: $colores, $key: c-grey-background);
     /* opcional */
     line-height: 1.4em;
-    /* opcional */
-    hyphens: auto;
-    /* opcional */
-    font-smooth: always;
     /* opcional */
     -webkit-font-smoothing: antialiased;
     /* opcional */

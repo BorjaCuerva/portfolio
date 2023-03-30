@@ -1,16 +1,18 @@
 @import '../abstracts/variables';
+@import '../abstracts/mixins';
 
 .navbar {
     background-color: map-get($map: $colores, $key: c-black);
     width: 100%;
-    max-width: 75em;
-    margin: auto;
-    padding: 2em;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 1.875em;
-    margin: 1em auto;
+    max-width: map-get($map: $estructura-pc, $key: max-width);
+    padding: map-get($map: $estructura-pc, $key: padding);
+    border-radius: map-get($map: $estructura-pc, $key: border-radius);
+    margin: 1em auto 0 auto;
+    @include flex (flex , row, space-between, center);
+
+    &__h1 {
+        display: none;
+    }
 
     &__img {
         width: 12em;
@@ -29,8 +31,6 @@
     &__li {
         color: map-get($map: $colores, $key: c-white);
         margin: 0 0 0 1em;
-        
-        
     }
 
     &__a {

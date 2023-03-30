@@ -12,4 +12,12 @@ $fuentes : (
     "f-light" : 200,
     "f-medium" : 400,
     "f-bold" : 700
-    );
+);
+
+//hacer mixin de esto
+$estructura-pc : (
+    "max-width" : 75em,
+    "margin" : auto,
+    "border-radius" : 1.875em,
+    "padding" : 2em
+);
