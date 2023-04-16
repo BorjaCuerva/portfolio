@@ -15,7 +15,7 @@
         color: map-get($map: $colores, $key: c-blue);
         font-weight: map-get($map: $fuentes, $key: f-bold);
         font-size: 3em; 
-        padding: 1em
+        padding: 1em 0;
     }
     
     &__article{

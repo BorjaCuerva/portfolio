@@ -12,7 +12,16 @@
         color: map-get($map: $colores, $key: c-blue);
         font-weight: map-get($map: $fuentes, $key: f-bold);
         font-size: 3em; 
-        padding: 1em
+        padding: 1em 0;
+    }
+
+    &__a {
+        font-weight: bold;
+        margin: 0 0 0 .3em;
+
+        &:hover {
+            color: map-get($map: $colores, $key: c-blue);
+        }
     }
     
     &__article{
@@ -39,6 +48,7 @@
         &__li {
             color: map-get($map: $colores, $key: c-white);
             padding: 0 0 1em 0;
+            display: flex;
         }
     }
 }

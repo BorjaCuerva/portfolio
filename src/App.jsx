@@ -2,7 +2,7 @@ import './scss/main.scss';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Experience from './components/Experience';
-import Learning from './components/Learning';
+import Contact from './components/Contact';
 
 function App () {
   return (
@@ -10,7 +10,7 @@ function App () {
       <Navbar />
       <About />
       <Experience />
-      <Learning />
+      <Contact />
     </div>
   )
 }

@@ -13,7 +13,7 @@ const About = () => {
               <li className={styles.about__article__li}>🙇🏻 Me encanta investigar por mi cuenta nuevas tecnologías y formas de mejorar profesionalmente.</li>
               <li className={styles.about__article__li}>💼 Actualmente trabajo como desarrollador web en Alebat Education, donde tengo el placer de trabajar codo con codo con los mejores desarrolladores y amigos.</li>
               <li className={styles.about__article__li}>💻 Actualmente estoy aprendiendo Vue 3, Jest y Husky entre otros.</li>
-              <li className={styles.about__article__li}>💬 Te animo a escribirme por privado o al correo borjacuerva@gmail.com</li>
+              <li className={styles.about__article__li}>💬 Te animo a escribirme por privado o al correo <a className={styles.about__a} href="mailto:borjacuerva@gmail.com">borjacuerva@gmail.com</a></li>
             </ul>
           </div>
         </article>
