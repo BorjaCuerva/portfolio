@@ -10,7 +10,6 @@ const Navbar = () => {
         <ul className={styles.navbar__ul}>
           <li className={styles.navbar__li}><a className={styles.navbar__a} href="#">Acerca de mí</a></li>
           <li className={styles.navbar__li}><a className={styles.navbar__a} href="#">Experiencia</a></li>
-          <li className={styles.navbar__li}><a className={styles.navbar__a} href="#">Aprendiendo</a></li>
           <li className={styles.navbar__li}><a className={styles.navbar__a} href="#">Contacto</a></li>
         </ul>
         <RRSS />
