@@ -7,7 +7,7 @@
     background-color: map-get($map: $colores, $key: c-black);
     max-width: map-get($map: $estructura-pc, $key: max-width);
     border-radius: 1.3125em;
-    padding: map-get($map: $estructura-pc, $key: padding);
+    padding: 1em 2em;
     margin: 0 auto 1em auto;
 
     &__h2 {
